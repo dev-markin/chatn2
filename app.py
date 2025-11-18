@@ -70,4 +70,4 @@ def page_not_found(e):
 
 #Inicia o servidor Flask, chamando o método run do objeto app
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=80)
